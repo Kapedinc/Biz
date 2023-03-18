@@ -1,0 +1,40 @@
+name: vashon_s_application20
+description: A new Flutter project.
+version: 1.0.0+1
+environment: 
+  sdk: '>=2.12.0 <3.0.0'
+dependencies: 
+  flutter: 
+    sdk: flutter
+  get: ^4.6.5
+  connectivity_plus: ^2.3.6
+  shared_preferences: ^2.0.15
+  cached_network_image: ^3.2.1
+  flutter_svg: ^1.1.6
+  flutter_switch: ^0.3.2
+  smooth_page_indicator: ^1.0.0+2
+  grouped_list: ^5.1.2
+  intl: ^0.17.0
+dev_dependencies: 
+  flutter_test: 
+    sdk: flutter
+flutter: 
+  uses-material-design: true
+  assets: 
+    - assets/
+    - assets/images/
+  fonts: 
+    - family: SF Pro
+      fonts: 
+        - asset: assets/fonts/SFProBold.ttf
+          weight: 700
+        - asset: assets/fonts/SFProSemibold.ttf
+          weight: 600
+        - asset: assets/fonts/SFProRegular.ttf
+          weight: 400
+        - asset: assets/fonts/SFProMedium.ttf
+          weight: 500
+    - family: JetBrains Mono
+      fonts: 
+        - asset: assets/fonts/JetBrainsMonoRomanRegular.ttf
+          weight: 400
