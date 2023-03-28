@@ -13,7 +13,7 @@ class AppbarStack extends StatelessWidget {
   Widget build(BuildContext context) {
     return GestureDetector(
       onTap: () {
-        onTap!();
+        onTap?.call();
       },
       child: Padding(
         padding: margin ?? EdgeInsets.zero,

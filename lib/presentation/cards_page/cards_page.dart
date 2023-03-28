@@ -171,16 +171,16 @@ class CardsPage extends StatelessWidget {
                                                                             child: SizedBox(width: getHorizontalSize(16), child: Divider(height: getVerticalSize(2), thickness: getVerticalSize(2), color: ColorConstant.whiteA700)))
                                                                       ])),
                                                               SizedBox(
-                                                                  width:
-                                                                      getHorizontalSize(
-                                                                          2),
-                                                                  child: Divider(
-                                                                      height:
-                                                                          getVerticalSize(
-                                                                              43),
+                                                                  height:
+                                                                      getVerticalSize(
+                                                                          43),
+                                                                  child: VerticalDivider(
+                                                                      width:
+                                                                          getHorizontalSize(
+                                                                              2),
                                                                       thickness:
                                                                           getVerticalSize(
-                                                                              43),
+                                                                              2),
                                                                       color: ColorConstant
                                                                           .whiteA700)),
                                                               Container(

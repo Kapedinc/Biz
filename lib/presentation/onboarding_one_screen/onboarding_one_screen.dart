@@ -92,8 +92,9 @@ class OnboardingOneScreen extends GetWidget<OnboardingOneController> {
                                         overflow: TextOverflow.ellipsis,
                                         textAlign: TextAlign.left,
                                         style: AppStyle.txtSFProBold22)),
-                                Padding(
-                                    padding: getPadding(top: 14),
+                                Container(
+                                    width: getHorizontalSize(340),
+                                    margin: getMargin(top: 14),
                                     child: Text("msg_we_are_always_looking".tr,
                                         maxLines: null,
                                         textAlign: TextAlign.center,

@@ -96,6 +96,9 @@ class ListItemWidget extends StatelessWidget {
                   1,
                 ),
                 color: ColorConstant.gray8005b,
+                indent: getHorizontalSize(
+                  64,
+                ),
               ),
             ),
           ),

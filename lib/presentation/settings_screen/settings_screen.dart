@@ -255,6 +255,9 @@ class SettingsScreen extends GetWidget<SettingsController> {
                                   1,
                                 ),
                                 color: ColorConstant.gray8005b,
+                                indent: getHorizontalSize(
+                                  64,
+                                ),
                               ),
                             ),
                           ),
@@ -420,8 +423,11 @@ class SettingsScreen extends GetWidget<SettingsController> {
                                   textAlign: TextAlign.left,
                                   style: AppStyle.txtHeadlineBlack900,
                                 ),
-                                Padding(
-                                  padding: getPadding(
+                                Container(
+                                  width: getHorizontalSize(
+                                    226,
+                                  ),
+                                  margin: getMargin(
                                     top: 6,
                                   ),
                                   child: Text(

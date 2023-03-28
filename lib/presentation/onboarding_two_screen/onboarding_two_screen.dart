@@ -93,8 +93,9 @@ class OnboardingTwoScreen extends GetWidget<OnboardingTwoController> {
                                         overflow: TextOverflow.ellipsis,
                                         textAlign: TextAlign.left,
                                         style: AppStyle.txtSFProBold22)),
-                                Padding(
-                                    padding: getPadding(top: 16),
+                                Container(
+                                    width: getHorizontalSize(358),
+                                    margin: getMargin(top: 16),
                                     child: Text("msg_view_and_manage".tr,
                                         maxLines: null,
                                         textAlign: TextAlign.center,
