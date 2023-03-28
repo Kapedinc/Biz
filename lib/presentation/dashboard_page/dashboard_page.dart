@@ -234,7 +234,9 @@ class DashboardPage extends StatelessWidget {
                                                   height: getVerticalSize(1),
                                                   thickness: getVerticalSize(1),
                                                   color:
-                                                      ColorConstant.gray8005b)))
+                                                      ColorConstant.gray8005b,
+                                                  indent:
+                                                      getHorizontalSize(80))))
                                     ])),
                             Align(
                                 alignment: Alignment.centerLeft,

@@ -91,8 +91,9 @@ class OnboardingThreeScreen extends GetWidget<OnboardingThreeController> {
                                         overflow: TextOverflow.ellipsis,
                                         textAlign: TextAlign.left,
                                         style: AppStyle.txtSFProBold22)),
-                                Padding(
-                                    padding: getPadding(top: 14),
+                                Container(
+                                    width: getHorizontalSize(327),
+                                    margin: getMargin(top: 14),
                                     child: Text("msg_make_transfers_to".tr,
                                         maxLines: null,
                                         textAlign: TextAlign.center,

@@ -27,7 +27,7 @@ class AppbarImage extends StatelessWidget {
   Widget build(BuildContext context) {
     return InkWell(
       onTap: () {
-        onTap!();
+        onTap?.call();
       },
       child: Padding(
         padding: margin ?? EdgeInsets.zero,

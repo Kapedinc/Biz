@@ -54,8 +54,11 @@ class Listiconsbackground1ItemWidget extends StatelessWidget {
                           style: AppStyle.txtHeadline,
                         ),
                       ),
-                      Padding(
-                        padding: getPadding(
+                      Container(
+                        width: getHorizontalSize(
+                          226,
+                        ),
+                        margin: getMargin(
                           top: 7,
                         ),
                         child: Obx(
@@ -101,6 +104,9 @@ class Listiconsbackground1ItemWidget extends StatelessWidget {
                   1,
                 ),
                 color: ColorConstant.gray8005b,
+                indent: getHorizontalSize(
+                  64,
+                ),
               ),
             ),
           ),
